@@ -1,0 +1,26 @@
+{
+  "name": "api_admin",
+  "version": "1.0.0",
+  "description": "API for administrate site",
+  "main": "app.js",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JASaraiva/admin.git"
+  },
+  "author": "Jonas A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JASaraiva/admin/issues"
+  },
+  "homepage": "https://github.com/JASaraiva/admin#readme"
+}
