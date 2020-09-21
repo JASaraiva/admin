@@ -1,12 +1,10 @@
-var mysql = require('mysql');
+const mongoose = require('mongoose');
 
-module.exports = function(){
-    console.log('Conexão ON');
-    return conn =  mysql.createConnection({
-        host :'localhost',
-        user :'root',
-        password :'root123',
-        database :'portal_noticias'
-    });
+const expDB = function(){
+    mongoose.connect('mongodb://localhost:27017/apiadmin', {useNewUrlParser: true});
+    return mongoose.connection;
+}
 
+module.exports = function(){    
+    return expDB;
 };
